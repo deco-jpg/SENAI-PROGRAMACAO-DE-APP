@@ -1,0 +1,69 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background-color: #181818; /* Fundo escuro */
+  min-height: 100vh;
+}
+
+h1 {
+  color: #ffffff; /* Branco */
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #ffffff; /* Vermelho do YouTube */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  background-color: #333; /* Fundo escuro para input */
+  color: #ffffff; /* Texto branco */
+}
+
+button {
+  background-color: #ff0000; /* Vermelho do YouTube */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000; /* Vermelho mais escuro */
+}
+
+hr {
+  border: 1px solid #ffffff; /* Cor mais escura para o separador */
+  margin: 20px 0;
+  width: 80%;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  width: 80%;
+  margin-top: 10px;
+  color: #ffffff; /* Texto branco para a lista */
+}
+
+ol li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ffffff; /* Cor mais escura para a lista */
+}
+
+ol li:last-child {
+  border-bottom: none;
+}
