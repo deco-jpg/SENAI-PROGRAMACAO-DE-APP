@@ -1,0 +1,12 @@
+/* src\components\infocurso\styles.css */
+.inforcurso h3 {
+    color: cadetblue;
+    font-size: 24;
+    margin: 10px 0;
+}
+
+.inforcurso p {
+    color: rgb(0, 0, 0);
+    font-size: 24;
+    margin: 10px 0;
+}

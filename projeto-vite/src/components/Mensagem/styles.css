@@ -1,0 +1,17 @@
+/* src\components\Mensagem\styles.css */
+
+.mensagem h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mensagem p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    font-size: small;
+    font-weight: bold;
+}
+
+
